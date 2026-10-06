@@ -1,0 +1,3 @@
+10.0.0.5 "GET /index.action" 200 "Content-Type: text/html"
+10.0.0.9 "POST /upload.action" 200 "Content-Type: %{ognl_test_marker}"
+10.0.0.7 "GET /about.action" 200 "Content-Type: text/html"

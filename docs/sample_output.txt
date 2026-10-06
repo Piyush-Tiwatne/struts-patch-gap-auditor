@@ -1,0 +1,14 @@
+STRUTS PATCH-GAP AUDITOR | CVE-2017-5638
+Scanned: sample_data 
+
+STATUS      VERSION   LOCATION
+VULNERABLE  2.5.10    sample_data/shop.war!WEB-INF/lib/struts2-core-2.5.10.jar
+VULNERABLE  2.3.31    sample_data/app1/lib/struts2-core-2.3.31.jar
+REVIEW      2.2.3     sample_data/app3/lib/struts2-core-2.2.3.jar
+OK          2.5.10.1  sample_data/app2/lib/struts2-core-2.5.10.1.jar
+
+Found 4 Struts library(s), 2 vulnerable.
+Action: upgrade to a fixed, supported Struts release (2.3.32 / 2.5.10.1 or later).
+
+Log check: 1 suspicious line(s) in sample_data/sample_access.log
+  line 2: 10.0.0.9 "POST /upload.action" 200 "Content-Type: %{ognl_test_marker}"

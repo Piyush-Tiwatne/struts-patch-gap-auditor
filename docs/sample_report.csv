@@ -1,0 +1,5 @@
+status,version,location
+VULNERABLE,2.5.10,sample_data/shop.war!WEB-INF/lib/struts2-core-2.5.10.jar
+VULNERABLE,2.3.31,sample_data/app1/lib/struts2-core-2.3.31.jar
+REVIEW,2.2.3,sample_data/app3/lib/struts2-core-2.2.3.jar
+OK,2.5.10.1,sample_data/app2/lib/struts2-core-2.5.10.1.jar
